@@ -1,0 +1,10 @@
+[package]
+name = "rpp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bit_field = "0.10.3"
+bitflags = "2.10.0"
+memmap2 = "0.9.9"
+windows = { version = "0.62.2", features = ["Win32_System_Diagnostics_Debug", "Win32_System_SystemInformation", "Win32_System_SystemServices", "Win32_System_WindowsProgramming"] }
